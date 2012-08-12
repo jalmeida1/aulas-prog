@@ -1,12 +1,16 @@
 package br.com.senac.alp.aulas;
 
 
+
+
 public class PrimeiraAula {
+	
+
 	
 	private static PrimeiraAula instancia = new PrimeiraAula();
 	
 	
-	private PrimeiraAula() {
+	public PrimeiraAula() {
 
 		super();
 	}
@@ -29,9 +33,11 @@ public class PrimeiraAula {
 		
 		return resultado ;
 	}
-	
+
 	public static PrimeiraAula getInstancia() {
-		
-		return PrimeiraAula.instancia;
+		// TODO Auto-generated method stub
+		return null;
 	}
+	
+   
 }
