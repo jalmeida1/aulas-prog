@@ -30,11 +30,12 @@ public class PrimeiraAulaTest {
 	@Test
 	public void testSomaResultadoArgumentoNulo() {
 
+
 		double[] valores = null;		
 		double esperado = 0.0;
 		double resultado = 0.0;
 		int comparacao = 0;
-		
+
 		esperado = Double.NaN;
 		resultado = this.obj.somaTotal(valores);
 		comparacao = Double.compare(resultado, esperado);
