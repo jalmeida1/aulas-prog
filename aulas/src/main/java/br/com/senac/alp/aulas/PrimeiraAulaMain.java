@@ -103,7 +103,7 @@ public class PrimeiraAulaMain {
 			pa.valores[i] = val;
 			somaEsperado += val;
 		}
-	    pa.setEsperado(somaEsperado + 1);
+	    pa.setEsperado(somaEsperado);
 		pa.setResultado(pa.valores);  
 		pa.Comparacao();
    }   
