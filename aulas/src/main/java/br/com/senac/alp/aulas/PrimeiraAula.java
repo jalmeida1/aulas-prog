@@ -10,10 +10,12 @@ public class PrimeiraAula {
 	private static PrimeiraAula instancia = new PrimeiraAula();
 	
 	
-	public PrimeiraAula() {
+	private PrimeiraAula() {	
+		super();	
+		}
 
-		super();
-	}
+		
+	
 	
 	public double somaTotal(double[] valores) {
 		
