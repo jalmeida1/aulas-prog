@@ -6,10 +6,17 @@ public class MinhaListaImp<Tipo> implements MinhaLista<Tipo> {
 	
 	public MinhaListaImp(Tipo valorInicio) {
 		
+		if (valorInicio == null) {
+			throw new IllegalArgumentException();	
+		} 
+	   
 		this.inicio = new Nodo<Tipo>(valorInicio);
+			
+		
+		
 	}
 
-	public Nodo<Tipo> getInicio() {
+	protected Nodo<Tipo> getInicio() {
 		return inicio;
 	}
 
