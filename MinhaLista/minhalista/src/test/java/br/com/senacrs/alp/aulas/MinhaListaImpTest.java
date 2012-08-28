@@ -46,6 +46,18 @@ public class MinhaListaImpTest {
 	@Test
 	public void testSufixar() {
 		
+		MinhaListaImp<String> obj = null;
+		String valor,sufixo = null;
+		
+		obj = new MinhaListaImp<String>("Inicio");
+		valor = "valor";
+		
+		obj.sufixar(valor);
+		sufixo = obterSufixo(obj);
+		Assert.assertEquals(valor, sufixo);
+		
+		
+		
 	}
 
 	@Test
